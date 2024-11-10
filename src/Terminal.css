@@ -1,0 +1,35 @@
+/* src/Terminal.css */
+.terminal {
+  background-color: #1e1e1e;
+  color: #00ff00;
+  font-family: monospace;
+  padding: 20px;
+  height: 80vh;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.output {
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.input-line {
+  display: flex;
+}
+
+.prompt {
+  margin-right: 5px;
+}
+
+input[type="text"] {
+  background: none;
+  border: none;
+  color: #00ff00;
+  outline: none;
+  font-family: monospace;
+  width: 100%;
+}
